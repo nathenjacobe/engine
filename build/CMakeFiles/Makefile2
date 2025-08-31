@@ -54,16 +54,16 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nathen/Projects/Renderer/engine
+CMAKE_SOURCE_DIR = /home/nathen/Projects/engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nathen/Projects/Renderer/engine/build
+CMAKE_BINARY_DIR = /home/nathen/Projects/engine/build
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Renderer.dir/all
+all: CMakeFiles/Engine.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Renderer.dir/clean
+clean: CMakeFiles/Engine.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Renderer.dir
+# Target rules for target CMakeFiles/Engine.dir
 
 # All Build rule for target.
-CMakeFiles/Renderer.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nathen/Projects/Renderer/engine/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Renderer"
-.PHONY : CMakeFiles/Renderer.dir/all
+CMakeFiles/Engine.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nathen/Projects/engine/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Engine"
+.PHONY : CMakeFiles/Engine.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Renderer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nathen/Projects/Renderer/engine/build/CMakeFiles 5
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Renderer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nathen/Projects/Renderer/engine/build/CMakeFiles 0
-.PHONY : CMakeFiles/Renderer.dir/rule
+CMakeFiles/Engine.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nathen/Projects/engine/build/CMakeFiles 5
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Engine.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nathen/Projects/engine/build/CMakeFiles 0
+.PHONY : CMakeFiles/Engine.dir/rule
 
 # Convenience name for target.
-Renderer: CMakeFiles/Renderer.dir/rule
-.PHONY : Renderer
+Engine: CMakeFiles/Engine.dir/rule
+.PHONY : Engine
 
 # clean rule for target.
-CMakeFiles/Renderer.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/clean
-.PHONY : CMakeFiles/Renderer.dir/clean
+CMakeFiles/Engine.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/clean
+.PHONY : CMakeFiles/Engine.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

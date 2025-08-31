@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nathen/Projects/Renderer/engine
+CMAKE_SOURCE_DIR = /home/nathen/Projects/engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nathen/Projects/Renderer/engine/build
+CMAKE_BINARY_DIR = /home/nathen/Projects/engine/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nathen/Projects/Renderer/engine/build/CMakeFiles /home/nathen/Projects/Renderer/engine/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nathen/Projects/engine/build/CMakeFiles /home/nathen/Projects/engine/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nathen/Projects/Renderer/engine/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nathen/Projects/engine/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Renderer
+# Target rules for targets named Engine
 
 # Build rule for target.
-Renderer: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Renderer
-.PHONY : Renderer
+Engine: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Engine
+.PHONY : Engine
 
 # fast build rule for target.
-Renderer/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/build
-.PHONY : Renderer/fast
+Engine/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/build
+.PHONY : Engine/fast
 
 src/glad.o: src/glad.c.o
 .PHONY : src/glad.o
 
 # target to build an object file
 src/glad.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/glad.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/glad.c.o
 .PHONY : src/glad.c.o
 
 src/glad.i: src/glad.c.i
@@ -142,7 +142,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -150,7 +150,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 src/main.o: src/main.cpp.o
@@ -158,7 +158,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -166,7 +166,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -174,7 +174,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/ufbx.o: src/ufbx.c.o
@@ -182,7 +182,7 @@ src/ufbx.o: src/ufbx.c.o
 
 # target to build an object file
 src/ufbx.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/ufbx.c.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/ufbx.c.o
 .PHONY : src/ufbx.c.o
 
 src/ufbx.i: src/ufbx.c.i
@@ -190,7 +190,7 @@ src/ufbx.i: src/ufbx.c.i
 
 # target to preprocess a source file
 src/ufbx.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/ufbx.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/ufbx.c.i
 .PHONY : src/ufbx.c.i
 
 src/ufbx.s: src/ufbx.c.s
@@ -198,7 +198,7 @@ src/ufbx.s: src/ufbx.c.s
 
 # target to generate assembly for a file
 src/ufbx.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/ufbx.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/ufbx.c.s
 .PHONY : src/ufbx.c.s
 
 src/utilities.o: src/utilities.cpp.o
@@ -206,7 +206,7 @@ src/utilities.o: src/utilities.cpp.o
 
 # target to build an object file
 src/utilities.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/utilities.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/utilities.cpp.o
 .PHONY : src/utilities.cpp.o
 
 src/utilities.i: src/utilities.cpp.i
@@ -214,7 +214,7 @@ src/utilities.i: src/utilities.cpp.i
 
 # target to preprocess a source file
 src/utilities.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/utilities.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/utilities.cpp.i
 .PHONY : src/utilities.cpp.i
 
 src/utilities.s: src/utilities.cpp.s
@@ -222,7 +222,7 @@ src/utilities.s: src/utilities.cpp.s
 
 # target to generate assembly for a file
 src/utilities.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/src/utilities.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Engine.dir/build.make CMakeFiles/Engine.dir/src/utilities.cpp.s
 .PHONY : src/utilities.cpp.s
 
 # Help Target
@@ -233,7 +233,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Renderer"
+	@echo "... Engine"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
