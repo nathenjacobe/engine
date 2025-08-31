@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nathen/Projects/Renderer
+CMAKE_SOURCE_DIR = /home/nathen/Projects/Renderer/engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nathen/Projects/Renderer/build
+CMAKE_BINARY_DIR = /home/nathen/Projects/Renderer/engine/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -81,14 +81,14 @@ clean: CMakeFiles/Renderer.dir/clean
 CMakeFiles/Renderer.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Renderer.dir/build.make CMakeFiles/Renderer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nathen/Projects/Renderer/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Renderer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/nathen/Projects/Renderer/engine/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target Renderer"
 .PHONY : CMakeFiles/Renderer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/Renderer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nathen/Projects/Renderer/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nathen/Projects/Renderer/engine/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Renderer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nathen/Projects/Renderer/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nathen/Projects/Renderer/engine/build/CMakeFiles 0
 .PHONY : CMakeFiles/Renderer.dir/rule
 
 # Convenience name for target.

@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/nathen/Projects/Renderer/include -I/home/nathen/Projects/Renderer/include/glad
+C_INCLUDES = -I/home/nathen/Projects/Renderer/engine/include -I/home/nathen/Projects/Renderer/engine/include/glad
 
 C_FLAGS = -Wall -Wextra
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/nathen/Projects/Renderer/include -I/home/nathen/Projects/Renderer/include/glad
+CXX_INCLUDES = -I/home/nathen/Projects/Renderer/engine/include -I/home/nathen/Projects/Renderer/engine/include/glad
 
 CXX_FLAGS = -std=c++17 -Wall -Wextra
 

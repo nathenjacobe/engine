@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "/home/nathen/Projects/Renderer/Renderer"
-  "/home/nathen/Projects/Renderer/Renderer.pdb"
+  "/home/nathen/Projects/Renderer/engine/Renderer"
+  "/home/nathen/Projects/Renderer/engine/Renderer.pdb"
   "CMakeFiles/Renderer.dir/src/glad.c.o"
   "CMakeFiles/Renderer.dir/src/glad.c.o.d"
   "CMakeFiles/Renderer.dir/src/main.cpp.o"

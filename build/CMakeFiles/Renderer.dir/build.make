@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nathen/Projects/Renderer
+CMAKE_SOURCE_DIR = /home/nathen/Projects/Renderer/engine
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nathen/Projects/Renderer/build
+CMAKE_BINARY_DIR = /home/nathen/Projects/Renderer/engine/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Renderer.dir/depend.make
@@ -70,60 +70,60 @@ include CMakeFiles/Renderer.dir/progress.make
 include CMakeFiles/Renderer.dir/flags.make
 
 CMakeFiles/Renderer.dir/src/main.cpp.o: CMakeFiles/Renderer.dir/flags.make
-CMakeFiles/Renderer.dir/src/main.cpp.o: /home/nathen/Projects/Renderer/src/main.cpp
+CMakeFiles/Renderer.dir/src/main.cpp.o: /home/nathen/Projects/Renderer/engine/src/main.cpp
 CMakeFiles/Renderer.dir/src/main.cpp.o: CMakeFiles/Renderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nathen/Projects/Renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Renderer.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Renderer.dir/src/main.cpp.o -MF CMakeFiles/Renderer.dir/src/main.cpp.o.d -o CMakeFiles/Renderer.dir/src/main.cpp.o -c /home/nathen/Projects/Renderer/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nathen/Projects/Renderer/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Renderer.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Renderer.dir/src/main.cpp.o -MF CMakeFiles/Renderer.dir/src/main.cpp.o.d -o CMakeFiles/Renderer.dir/src/main.cpp.o -c /home/nathen/Projects/Renderer/engine/src/main.cpp
 
 CMakeFiles/Renderer.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nathen/Projects/Renderer/src/main.cpp > CMakeFiles/Renderer.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nathen/Projects/Renderer/engine/src/main.cpp > CMakeFiles/Renderer.dir/src/main.cpp.i
 
 CMakeFiles/Renderer.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nathen/Projects/Renderer/src/main.cpp -o CMakeFiles/Renderer.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nathen/Projects/Renderer/engine/src/main.cpp -o CMakeFiles/Renderer.dir/src/main.cpp.s
 
 CMakeFiles/Renderer.dir/src/utilities.cpp.o: CMakeFiles/Renderer.dir/flags.make
-CMakeFiles/Renderer.dir/src/utilities.cpp.o: /home/nathen/Projects/Renderer/src/utilities.cpp
+CMakeFiles/Renderer.dir/src/utilities.cpp.o: /home/nathen/Projects/Renderer/engine/src/utilities.cpp
 CMakeFiles/Renderer.dir/src/utilities.cpp.o: CMakeFiles/Renderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nathen/Projects/Renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Renderer.dir/src/utilities.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Renderer.dir/src/utilities.cpp.o -MF CMakeFiles/Renderer.dir/src/utilities.cpp.o.d -o CMakeFiles/Renderer.dir/src/utilities.cpp.o -c /home/nathen/Projects/Renderer/src/utilities.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nathen/Projects/Renderer/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Renderer.dir/src/utilities.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Renderer.dir/src/utilities.cpp.o -MF CMakeFiles/Renderer.dir/src/utilities.cpp.o.d -o CMakeFiles/Renderer.dir/src/utilities.cpp.o -c /home/nathen/Projects/Renderer/engine/src/utilities.cpp
 
 CMakeFiles/Renderer.dir/src/utilities.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Renderer.dir/src/utilities.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nathen/Projects/Renderer/src/utilities.cpp > CMakeFiles/Renderer.dir/src/utilities.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nathen/Projects/Renderer/engine/src/utilities.cpp > CMakeFiles/Renderer.dir/src/utilities.cpp.i
 
 CMakeFiles/Renderer.dir/src/utilities.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Renderer.dir/src/utilities.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nathen/Projects/Renderer/src/utilities.cpp -o CMakeFiles/Renderer.dir/src/utilities.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nathen/Projects/Renderer/engine/src/utilities.cpp -o CMakeFiles/Renderer.dir/src/utilities.cpp.s
 
 CMakeFiles/Renderer.dir/src/glad.c.o: CMakeFiles/Renderer.dir/flags.make
-CMakeFiles/Renderer.dir/src/glad.c.o: /home/nathen/Projects/Renderer/src/glad.c
+CMakeFiles/Renderer.dir/src/glad.c.o: /home/nathen/Projects/Renderer/engine/src/glad.c
 CMakeFiles/Renderer.dir/src/glad.c.o: CMakeFiles/Renderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nathen/Projects/Renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Renderer.dir/src/glad.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Renderer.dir/src/glad.c.o -MF CMakeFiles/Renderer.dir/src/glad.c.o.d -o CMakeFiles/Renderer.dir/src/glad.c.o -c /home/nathen/Projects/Renderer/src/glad.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nathen/Projects/Renderer/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Renderer.dir/src/glad.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Renderer.dir/src/glad.c.o -MF CMakeFiles/Renderer.dir/src/glad.c.o.d -o CMakeFiles/Renderer.dir/src/glad.c.o -c /home/nathen/Projects/Renderer/engine/src/glad.c
 
 CMakeFiles/Renderer.dir/src/glad.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Renderer.dir/src/glad.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nathen/Projects/Renderer/src/glad.c > CMakeFiles/Renderer.dir/src/glad.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nathen/Projects/Renderer/engine/src/glad.c > CMakeFiles/Renderer.dir/src/glad.c.i
 
 CMakeFiles/Renderer.dir/src/glad.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Renderer.dir/src/glad.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nathen/Projects/Renderer/src/glad.c -o CMakeFiles/Renderer.dir/src/glad.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nathen/Projects/Renderer/engine/src/glad.c -o CMakeFiles/Renderer.dir/src/glad.c.s
 
 CMakeFiles/Renderer.dir/src/ufbx.c.o: CMakeFiles/Renderer.dir/flags.make
-CMakeFiles/Renderer.dir/src/ufbx.c.o: /home/nathen/Projects/Renderer/src/ufbx.c
+CMakeFiles/Renderer.dir/src/ufbx.c.o: /home/nathen/Projects/Renderer/engine/src/ufbx.c
 CMakeFiles/Renderer.dir/src/ufbx.c.o: CMakeFiles/Renderer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nathen/Projects/Renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Renderer.dir/src/ufbx.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Renderer.dir/src/ufbx.c.o -MF CMakeFiles/Renderer.dir/src/ufbx.c.o.d -o CMakeFiles/Renderer.dir/src/ufbx.c.o -c /home/nathen/Projects/Renderer/src/ufbx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nathen/Projects/Renderer/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Renderer.dir/src/ufbx.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/Renderer.dir/src/ufbx.c.o -MF CMakeFiles/Renderer.dir/src/ufbx.c.o.d -o CMakeFiles/Renderer.dir/src/ufbx.c.o -c /home/nathen/Projects/Renderer/engine/src/ufbx.c
 
 CMakeFiles/Renderer.dir/src/ufbx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/Renderer.dir/src/ufbx.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nathen/Projects/Renderer/src/ufbx.c > CMakeFiles/Renderer.dir/src/ufbx.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nathen/Projects/Renderer/engine/src/ufbx.c > CMakeFiles/Renderer.dir/src/ufbx.c.i
 
 CMakeFiles/Renderer.dir/src/ufbx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/Renderer.dir/src/ufbx.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nathen/Projects/Renderer/src/ufbx.c -o CMakeFiles/Renderer.dir/src/ufbx.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nathen/Projects/Renderer/engine/src/ufbx.c -o CMakeFiles/Renderer.dir/src/ufbx.c.s
 
 # Object files for target Renderer
 Renderer_OBJECTS = \
@@ -135,20 +135,20 @@ Renderer_OBJECTS = \
 # External object files for target Renderer
 Renderer_EXTERNAL_OBJECTS =
 
-/home/nathen/Projects/Renderer/Renderer: CMakeFiles/Renderer.dir/src/main.cpp.o
-/home/nathen/Projects/Renderer/Renderer: CMakeFiles/Renderer.dir/src/utilities.cpp.o
-/home/nathen/Projects/Renderer/Renderer: CMakeFiles/Renderer.dir/src/glad.c.o
-/home/nathen/Projects/Renderer/Renderer: CMakeFiles/Renderer.dir/src/ufbx.c.o
-/home/nathen/Projects/Renderer/Renderer: CMakeFiles/Renderer.dir/build.make
-/home/nathen/Projects/Renderer/Renderer: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
-/home/nathen/Projects/Renderer/Renderer: /usr/lib/x86_64-linux-gnu/libGLX.so
-/home/nathen/Projects/Renderer/Renderer: /usr/lib/x86_64-linux-gnu/libOpenGL.so
-/home/nathen/Projects/Renderer/Renderer: CMakeFiles/Renderer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nathen/Projects/Renderer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/nathen/Projects/Renderer/Renderer"
+/home/nathen/Projects/Renderer/engine/Renderer: CMakeFiles/Renderer.dir/src/main.cpp.o
+/home/nathen/Projects/Renderer/engine/Renderer: CMakeFiles/Renderer.dir/src/utilities.cpp.o
+/home/nathen/Projects/Renderer/engine/Renderer: CMakeFiles/Renderer.dir/src/glad.c.o
+/home/nathen/Projects/Renderer/engine/Renderer: CMakeFiles/Renderer.dir/src/ufbx.c.o
+/home/nathen/Projects/Renderer/engine/Renderer: CMakeFiles/Renderer.dir/build.make
+/home/nathen/Projects/Renderer/engine/Renderer: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
+/home/nathen/Projects/Renderer/engine/Renderer: /usr/lib/x86_64-linux-gnu/libGLX.so
+/home/nathen/Projects/Renderer/engine/Renderer: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+/home/nathen/Projects/Renderer/engine/Renderer: CMakeFiles/Renderer.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nathen/Projects/Renderer/engine/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable /home/nathen/Projects/Renderer/engine/Renderer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Renderer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/Renderer.dir/build: /home/nathen/Projects/Renderer/Renderer
+CMakeFiles/Renderer.dir/build: /home/nathen/Projects/Renderer/engine/Renderer
 .PHONY : CMakeFiles/Renderer.dir/build
 
 CMakeFiles/Renderer.dir/clean:
@@ -156,6 +156,6 @@ CMakeFiles/Renderer.dir/clean:
 .PHONY : CMakeFiles/Renderer.dir/clean
 
 CMakeFiles/Renderer.dir/depend:
-	cd /home/nathen/Projects/Renderer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nathen/Projects/Renderer /home/nathen/Projects/Renderer /home/nathen/Projects/Renderer/build /home/nathen/Projects/Renderer/build /home/nathen/Projects/Renderer/build/CMakeFiles/Renderer.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/nathen/Projects/Renderer/engine/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nathen/Projects/Renderer/engine /home/nathen/Projects/Renderer/engine /home/nathen/Projects/Renderer/engine/build /home/nathen/Projects/Renderer/engine/build /home/nathen/Projects/Renderer/engine/build/CMakeFiles/Renderer.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/Renderer.dir/depend
 

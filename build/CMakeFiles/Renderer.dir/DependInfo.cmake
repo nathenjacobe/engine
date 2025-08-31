@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/nathen/Projects/Renderer/src/glad.c" "CMakeFiles/Renderer.dir/src/glad.c.o" "gcc" "CMakeFiles/Renderer.dir/src/glad.c.o.d"
-  "/home/nathen/Projects/Renderer/src/ufbx.c" "CMakeFiles/Renderer.dir/src/ufbx.c.o" "gcc" "CMakeFiles/Renderer.dir/src/ufbx.c.o.d"
-  "/home/nathen/Projects/Renderer/src/main.cpp" "CMakeFiles/Renderer.dir/src/main.cpp.o" "gcc" "CMakeFiles/Renderer.dir/src/main.cpp.o.d"
-  "/home/nathen/Projects/Renderer/src/utilities.cpp" "CMakeFiles/Renderer.dir/src/utilities.cpp.o" "gcc" "CMakeFiles/Renderer.dir/src/utilities.cpp.o.d"
+  "/home/nathen/Projects/Renderer/engine/src/glad.c" "CMakeFiles/Renderer.dir/src/glad.c.o" "gcc" "CMakeFiles/Renderer.dir/src/glad.c.o.d"
+  "/home/nathen/Projects/Renderer/engine/src/ufbx.c" "CMakeFiles/Renderer.dir/src/ufbx.c.o" "gcc" "CMakeFiles/Renderer.dir/src/ufbx.c.o.d"
+  "/home/nathen/Projects/Renderer/engine/src/main.cpp" "CMakeFiles/Renderer.dir/src/main.cpp.o" "gcc" "CMakeFiles/Renderer.dir/src/main.cpp.o.d"
+  "/home/nathen/Projects/Renderer/engine/src/utilities.cpp" "CMakeFiles/Renderer.dir/src/utilities.cpp.o" "gcc" "CMakeFiles/Renderer.dir/src/utilities.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

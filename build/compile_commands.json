@@ -1,26 +1,26 @@
 [
 {
-  "directory": "/home/nathen/Projects/Renderer/build",
-  "command": "/usr/bin/c++  -I/home/nathen/Projects/Renderer/include -I/home/nathen/Projects/Renderer/include/glad -std=c++17 -Wall -Wextra -o CMakeFiles/Renderer.dir/src/main.cpp.o -c /home/nathen/Projects/Renderer/src/main.cpp",
-  "file": "/home/nathen/Projects/Renderer/src/main.cpp",
+  "directory": "/home/nathen/Projects/Renderer/engine/build",
+  "command": "/usr/bin/c++  -I/home/nathen/Projects/Renderer/engine/include -I/home/nathen/Projects/Renderer/engine/include/glad -std=c++17 -Wall -Wextra -o CMakeFiles/Renderer.dir/src/main.cpp.o -c /home/nathen/Projects/Renderer/engine/src/main.cpp",
+  "file": "/home/nathen/Projects/Renderer/engine/src/main.cpp",
   "output": "CMakeFiles/Renderer.dir/src/main.cpp.o"
 },
 {
-  "directory": "/home/nathen/Projects/Renderer/build",
-  "command": "/usr/bin/c++  -I/home/nathen/Projects/Renderer/include -I/home/nathen/Projects/Renderer/include/glad -std=c++17 -Wall -Wextra -o CMakeFiles/Renderer.dir/src/utilities.cpp.o -c /home/nathen/Projects/Renderer/src/utilities.cpp",
-  "file": "/home/nathen/Projects/Renderer/src/utilities.cpp",
+  "directory": "/home/nathen/Projects/Renderer/engine/build",
+  "command": "/usr/bin/c++  -I/home/nathen/Projects/Renderer/engine/include -I/home/nathen/Projects/Renderer/engine/include/glad -std=c++17 -Wall -Wextra -o CMakeFiles/Renderer.dir/src/utilities.cpp.o -c /home/nathen/Projects/Renderer/engine/src/utilities.cpp",
+  "file": "/home/nathen/Projects/Renderer/engine/src/utilities.cpp",
   "output": "CMakeFiles/Renderer.dir/src/utilities.cpp.o"
 },
 {
-  "directory": "/home/nathen/Projects/Renderer/build",
-  "command": "/usr/bin/cc  -I/home/nathen/Projects/Renderer/include -I/home/nathen/Projects/Renderer/include/glad -Wall -Wextra -o CMakeFiles/Renderer.dir/src/glad.c.o -c /home/nathen/Projects/Renderer/src/glad.c",
-  "file": "/home/nathen/Projects/Renderer/src/glad.c",
+  "directory": "/home/nathen/Projects/Renderer/engine/build",
+  "command": "/usr/bin/cc  -I/home/nathen/Projects/Renderer/engine/include -I/home/nathen/Projects/Renderer/engine/include/glad -Wall -Wextra -o CMakeFiles/Renderer.dir/src/glad.c.o -c /home/nathen/Projects/Renderer/engine/src/glad.c",
+  "file": "/home/nathen/Projects/Renderer/engine/src/glad.c",
   "output": "CMakeFiles/Renderer.dir/src/glad.c.o"
 },
 {
-  "directory": "/home/nathen/Projects/Renderer/build",
-  "command": "/usr/bin/cc  -I/home/nathen/Projects/Renderer/include -I/home/nathen/Projects/Renderer/include/glad -Wall -Wextra -o CMakeFiles/Renderer.dir/src/ufbx.c.o -c /home/nathen/Projects/Renderer/src/ufbx.c",
-  "file": "/home/nathen/Projects/Renderer/src/ufbx.c",
+  "directory": "/home/nathen/Projects/Renderer/engine/build",
+  "command": "/usr/bin/cc  -I/home/nathen/Projects/Renderer/engine/include -I/home/nathen/Projects/Renderer/engine/include/glad -Wall -Wextra -o CMakeFiles/Renderer.dir/src/ufbx.c.o -c /home/nathen/Projects/Renderer/engine/src/ufbx.c",
+  "file": "/home/nathen/Projects/Renderer/engine/src/ufbx.c",
   "output": "CMakeFiles/Renderer.dir/src/ufbx.c.o"
 }
 ]

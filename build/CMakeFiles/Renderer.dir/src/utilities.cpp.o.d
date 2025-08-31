@@ -1,7 +1,7 @@
 CMakeFiles/Renderer.dir/src/utilities.cpp.o: \
- /home/nathen/Projects/Renderer/src/utilities.cpp \
+ /home/nathen/Projects/Renderer/engine/src/utilities.cpp \
  /usr/include/stdc-predef.h \
- /home/nathen/Projects/Renderer/include/utilities.hpp \
+ /home/nathen/Projects/Renderer/engine/include/utilities.hpp \
  /usr/include/glm/detail/qualifier.hpp /usr/include/glm/detail/setup.hpp \
  /usr/include/c++/13/cassert \
  /usr/include/x86_64-linux-gnu/c++/13/bits/c++config.h \
