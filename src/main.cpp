@@ -83,7 +83,7 @@ void updatePhysics(std::vector<SceneObject>& objects, float delta_time) {
     const float RESTITUTION = 1.0f; // ^^^
     const float MIN_SEPARATION_VELOCITY = 0.01f;
     
-    delta_time = std::min(delta_time, 0.033f); // cap DT to prevent issues if the machine is struggling
+    delta_time = std::min(delta_time, 0.033f); // cap DT to prevent calculation issues
     
     for (auto& obj : objects) {
         obj.velocity *= DAMPING;
